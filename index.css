@@ -1,0 +1,113 @@
+/* .grid-background {
+    background-image: 
+        linear-gradient(to right, #ccc 1px, transparent 1px), 
+        linear-gradient(to bottom, #ccc 1px, transparent 1px);
+    background-size: 50px 50px;  Sets both the vertical and horizontal spacing 
+} */
+:root {
+    --main-color: #0072C6;
+}
+
+.roboto-condensed-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.pinyon-script-regular {
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.hightlighted-text {
+    color: var(--main-color);
+    font-weight: bolder;
+}
+.botton {
+    border-color: var(--main-color);
+    border-radius: 20px;
+    border-width: 2px;
+}
+.button-nofill {
+    background-color: white;
+}
+.button-fill {
+    background-color: var(--main-color);
+    color: white;
+}
+.cards {
+    box-shadow: 1px 2px 0 0 black;
+    border-radius: 20px;
+    font-weight: 500;
+    min-height: max-content;
+}
+.plan-cards {
+    max-width: 45%;
+}
+.service-cards>img {
+  height: 125px; /* Set your desired fixed height */
+  object-fit: contain; /* Ensures the image covers the area without distortion */
+}
+ul li::marker {
+  content: "▬ "; /* Replaces with a rocket emoji */
+  font-size: 1.2em;
+  color: var(--main-color) /* Sets the color of the bullet to blue */
+}
+
+/* The parent ul sets the custom character for the markers */
+/* ul {
+  list-style-type: "✅ "; 
+} */
+.ol-styling {
+    /* font-family: "Bungee Outline", sans-serif; */
+    font-family: "Ultra", serif;
+    font-size: 5rem;
+    font-weight: 500;
+    background: -webkit-linear-gradient(#eee, var(--main-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ol-text-styling {
+    font-size: 1.3rem;
+    /* background-color: var(--main-color); */
+    /* background: linear-gradient(315deg, var(--main-color),white); */
+    /* background: -webkit-linear-gradient(#eee, var(--main-color)); */
+    background: -webkit-linear-gradient(#eee, var(--main-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    /* color: var(--main-color); */
+    width: 125px;                  /* Sets the width */
+    height: 125px;                 /* Sets the height (must match the width) */
+    border-radius: 50%;            /* Transforms the square into a circle */
+}
+
+
+.contact-box {
+    background-color: black;
+    /* border-radius: 30px; */
+    color: white;
+}
+.contact-box a{
+    text-align: center;
+}
+h1 {
+    font-size: 4rem;
+}
+hr.styled-line {
+  /* Remove default browser styling */
+  border: none;
+  /* Set the line's thickness (height) */
+  height: 3px;
+  /* Set the line's color */
+  background-color: #333;
+  /* Adjust the width of the line */
+  width: 100%;
+  /* Center the line horizontally */
+  margin: 5px auto;
+}
+
+.social-media-box img {
+    width: 50px;
+    /* max-width: 100px; */
+}
