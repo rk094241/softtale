@@ -33,7 +33,7 @@
     background-color: white;
 }
 .button-fill {
-    background-color: var(--second-color);
+    background: var(--second-color);
     color: white;
 }
 .cards {
