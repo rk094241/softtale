@@ -5,7 +5,7 @@
     background-size: 50px 50px;  Sets both the vertical and horizontal spacing 
 } */
 :root {
-    --main-color: #0072C6;
+    --main-color: linear-gradient(90deg, #0A66C2, #3B82F6);
 }
 
 .roboto-condensed-font {
