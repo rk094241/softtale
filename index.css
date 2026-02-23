@@ -21,7 +21,9 @@
   font-style: normal;
 }
 .hightlighted-text {
-    color: var(--main-color);
+    background: var(--second-color);
+    color: transparent;
+    background-clip: text;
     font-weight: bolder;
 }
 .botton {
@@ -64,18 +66,18 @@ ul li::marker {
     font-family: "Ultra", serif;
     font-size: 5rem;
     font-weight: 500;
-    background: -webkit-linear-gradient(#eee, var(--main-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: var(--second-color);
+    color: transparent;
+    background-clip: text;
 }
 .ol-text-styling {
     font-size: 1.3rem;
     /* background-color: var(--main-color); */
     /* background: linear-gradient(315deg, var(--main-color),white); */
     /* background: -webkit-linear-gradient(#eee, var(--main-color)); */
-    background: -webkit-linear-gradient(#eee, var(--main-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: var(--second-color);
+    background-clip: text;
+    color: transparent;
     font-weight: 500;
     /* color: var(--main-color); */
     width: 125px;                  /* Sets the width */
